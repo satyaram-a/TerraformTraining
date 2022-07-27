@@ -1,4 +1,5 @@
 #Create Instance
+#Creating three instances at a time
 resource "aws_instance" "myFirstInstance" {
   count         = 3
   ami           = "ami-0cff7528ff583bf9a"
