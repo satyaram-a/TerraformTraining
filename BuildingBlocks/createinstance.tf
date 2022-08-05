@@ -1,3 +1,4 @@
+# Creating custom resource
 
 resource "aws_key_pair" "levelup_key" {
     key_name = "levelup_key"
